@@ -17,5 +17,5 @@ This project is a React Native app built with Expo. Follow the steps below to ru
   npm start
 
 ### 4. Screenshot of the app
-`![alt text](https://res.cloudinary.com/dar4ws6v6/image/upload/v1735472856/fsvn3kwqurfprediipvs.jpg)`
-`![alt text](https://res.cloudinary.com/dar4ws6v6/image/upload/v1735472856/ndefcmj7y5c5xqra1lcs.jpg)`
+![alt text](https://res.cloudinary.com/dar4ws6v6/image/upload/v1735472856/fsvn3kwqurfprediipvs.jpg)
+![alt text](https://res.cloudinary.com/dar4ws6v6/image/upload/v1735472856/ndefcmj7y5c5xqra1lcs.jpg)
