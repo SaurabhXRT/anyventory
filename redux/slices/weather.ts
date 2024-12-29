@@ -2,12 +2,14 @@ import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
 interface WeatherState {
   data: any | null;
+  databydate: any | null;
   loading: boolean;
   error: string | null;
 }
 
 const initialState: WeatherState = {
   data: null,
+  databydate: null,
   loading: false,
   error: null,
 };
@@ -28,6 +30,9 @@ const weatherSlice = createSlice({
       state.loading = false;
       state.error = action.payload;
     },
+    fetchWeatherbydate(state,action:PayloadAction<any>){
+      state.databydate = action.payload;
+    }
   },
 });
 
@@ -35,6 +40,7 @@ export const {
   fetchWeatherStart,
   fetchWeatherSuccess,
   fetchWeatherFailure,
+  fetchWeatherbydate
 } = weatherSlice.actions;
 
 export default weatherSlice.reducer;

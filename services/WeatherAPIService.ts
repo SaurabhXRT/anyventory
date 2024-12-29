@@ -56,9 +56,10 @@ class WeatherAPIService {
         params: {
           key: this.API_KEY,
           q: query,
-          dt,
+          dt: dt,
         },
       });
+      console.log(response)
       return response.data;
     } catch (error) {
       throw new Error("Failed to fetch weather for selected date");
